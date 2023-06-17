@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mutli column</title>
+    <style>
+        body {
+        background-color: #242b2e;
+        display: flex;
+        justify-content: center;
+        font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
+        "Lucida Sans", Arial, sans-serif;
+      }
+      .container {
+        max-width: 1200px;
+        width: 100%;
+      }
+      h1{
+        text-align: center;
+        color: #ff6666;
+      }
+      .multi-columns{
+        display: flex;
+        justify-content: center;
+        gap: 20px;
+      }
+      .column{
+        width: 30%;
+        background-color: #fff;
+        border: 5px solid black;
+        border-radius: 5px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+      }
+      .column>.heading{
+        font-size: 30px;
+        font-weight: bold;
+        margin-bottom: 0px;
+      }
+      .column>img{
+        width: 150px;
+      }
+      .content {
+        padding: 0px 20px;
+      }
+
+      .column-1 {
+        background-color: #35bdd0;
+        color: #111010;
+      }
+      .column-2 {
+        background-color: #e03b8b;
+        color: #111010;
+      }
+      .column-3 {
+        background-color: #5a20cb;
+        color: #111010;
+      }
+
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h1>Full stack Web Development</h1>
+        <section class="multi-columns">
+            <div class="column column-1">
+                <p class="heading">HTML</p>
+                <img 
+                src="https://cdn.pixabay.com/photo/2017/08/05/11/16/logo-2582748_640.png" alt="logo">
+                <p class="content">
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Aperiam excepturi alias tempora neque dignissimos, dolorum placeat tempore ex iure at possimus voluptatem nemo atque qui libero? Aliquid sequi minus veritatis, accusantium suscipit deleniti dolore autem aliquam non repellat, excepturi illum labore fuga eum modi molestiae ex magni vel quos nisi sed nesciunt sint debitis cupiditate? Iste doloribus assumenda vitae sint debitis, ut similique sit veritatis! Obcaecati ab repudiandae ducimus sapiente maiores necessitatibus dolore. Omnis architecto voluptate amet suscipit odit assumenda perspiciatis quasi, deserunt sunt iusto deleniti dolorum inventore. Vitae quidem optio consequuntur, neque voluptate facilis odit enim rerum! Accusamus, quisquam!
+                </p>
+            </div>
+            <div class="column column-2">
+                <p class="heading">CSS</p>
+                <img 
+                src="https://cdn.pixabay.com/photo/2017/08/05/11/16/logo-2582747_1280.png" alt="logo">
+                <p class="content">
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Quasi ad, repudiandae repellendus perferendis sequi sunt alias eveniet officiis soluta nobis, omnis libero, praesentium perspiciatis? Accusamus quibusdam dolorem eveniet itaque, illo omnis amet maxime voluptas voluptates fugit rerum a praesentium dolores atque incidunt mollitia? Voluptatibus culpa laudantium beatae aut qui sequi. Quaerat in iusto perspiciatis quasi reiciendis dolor quam. Eligendi praesentium numquam expedita voluptates nostrum explicabo soluta perspiciatis, libero amet ipsum quam reiciendis magnam dolorem exercitationem, illum placeat aliquid porro hic sapiente ut minima rerum non! Accusantium modi, repudiandae ab fuga minus saepe perferendis. Nihil quasi eveniet, deserunt inventore eius odio.</p>
+            </div>
+            <div class="column column-3">
+                <p class="heading">Java Script</p>
+                <img 
+                src="https://www.citypng.com/public/uploads/small/11662226392uom4gsi9ddb1c81ipfx2u4imargvwq7uskhdui1pj4f6xufjz0jkfzqzduhjuifts0dzcnykgszw6isfutq2nlwb51ef4gm0dt8d.png" alt="logo">
+                <p class="content">Lorem ipsum dolor sit amet consectetur adipisicing elit. Sapiente cupiditate maiores unde, dignissimos natus deserunt velit accusamus mollitia omnis officia doloribus exercitationem, nemo nostrum, sit voluptatibus ipsam delectus facere? Repudiandae laudantium ipsa ab libero minima aliquam tenetur in saepe dolores. Ducimus consectetur minima expedita accusantium, harum ipsa quam id. Praesentium.</p>
+            </div>
+            
+        </div>
+    </div>
+</body>
+</html>
